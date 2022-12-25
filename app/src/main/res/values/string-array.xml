@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by yasser on 12/24/22, 4:54 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 12/24/22, 4:54 PM
+  ~  */
+  -->
+
+<resources>
+    <string-array name="fading_logo">
+        <item>Spot Times</item>
+        <item>Daily Newspaper</item>
+    </string-array>
+
+</resources>

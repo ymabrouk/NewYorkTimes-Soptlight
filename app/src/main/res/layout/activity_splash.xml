@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by yasser on 12/22/22, 9:55 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 12/22/22, 7:10 PM
+  ~  */
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/ic_launcher"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/app_name" />
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/sourceTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center"
+            app:shuffle="true"
+            app:timeout="500"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ic_launcher"
+            android:textColor="@color/grey_text_color"
+            app:texts="@array/fading_logo"
+            android:textSize="@dimen/_22ssp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

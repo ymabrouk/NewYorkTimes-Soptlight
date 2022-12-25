@@ -1,0 +1,12 @@
+<!--
+  ~ /**
+  ~  * Created by yasser on 12/22/22, 9:55 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 12/22/22, 8:53 PM
+  ~  */
+  -->
+
+<resources>
+    <string name="app_name">Spot Times</string>
+    <string name="default_error_msg">Unable to connect to our servers. Please try again later.</string>
+</resources>

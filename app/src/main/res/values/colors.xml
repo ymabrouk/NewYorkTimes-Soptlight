@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /**
+  ~  * Created by yasser on 12/22/22, 9:55 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 12/22/22, 7:10 PM
+  ~  */
+  -->
+
+<resources>
+    <color name="secondary">#ea2f0d</color>
+    <color name="primary">#f45336</color>
+    <color name="colorAccent">#f47336</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screen_bg_color">#fafafa</color>
+    <color name="black_text_color">#4d4d4d</color>
+    <color name="grey_text_color">#696969</color>
+    <color name="assets_color">#696969</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+</resources>
